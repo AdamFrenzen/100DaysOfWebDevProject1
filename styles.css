@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+}
+.body {
+    height: 800px;
+    background-image: url("images/places/ocean.jpg");
+    background-position: center;
+    background-size: cover;
+}
+header {
+    width: 99vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    /*background-color: white;*/
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+header ul {
+    margin: auto;
+    display: flex;
+    list-style-type: none;
+    gap: 16px
+}
+
+header a {
+    padding: 10px;
+    text-decoration: none;
+    color: #f7ff1a;
+}
+
+header nav a:hover {
+    color: black;
+    background-color: #f7ff1a;
+    border-radius: 12px;
+    text-shadow: none;
+}
+
+nav {
+    padding-right: 0;
+}
+
+nav a {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 3px black;
+}
+
+.logo {
+    padding: 10px 10px;
+    font-family: "Oleo Script", "sans-serif";
+    color: #f7ff1a;
+    font-size: 60px;
+    text-shadow: 1px 1px 1px black;
+}
+.discover {
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    width: 50%;
+    background-color: rgba(38, 38, 38, 0.5);
+    position: relative;
+    top: 200px;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.highlights {
+    margin: 0;
+    background-color: #ddedff;
+    text-align: center;
+}
+.highlights h2 {
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: lighter;
+
+    margin: 0;
+    padding-top: 48px;
+    padding-bottom: 20px
+}
+
+#destinations {
+    padding-left: 0;
+    list-style-type: none;
+    justify-content: center;
+    list-style-position: inside;
+    display: flex;
+    gap: 32px;
+
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.destination img {
+    height: 225px;
+    width: 300px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.destination strong {
+    color: midnightblue;
+}
